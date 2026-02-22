@@ -2,6 +2,7 @@ import {Component, inject, signal} from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 import {LoadingStatus} from './services/loading-status';
 import {Loading} from './components/loading/loading';
+import {AsyncPipe} from '@angular/common';
 
 @Component({
   selector: 'app-root',
